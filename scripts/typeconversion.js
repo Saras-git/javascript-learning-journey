@@ -12,3 +12,14 @@ console.log(typeof age);
 let isAdult=true;
 isAdult=String(isAdult);
 console.log(isAdult,typeof isAdult);
+
+let a='23';
+console.log(typeof a);
+a=Number(a);
+console.log(a+3);
+
+let x='0';//if x is negative numbe output will be true,iff its is 0 it is false if if it an any posstitve number it is true
+console.log(typeof x);
+x=Boolean(x);
+console.log(typeof x);
+console.log(x);
